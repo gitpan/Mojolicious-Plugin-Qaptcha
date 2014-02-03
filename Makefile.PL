@@ -5,6 +5,7 @@ WriteMakefile
   'NAME' => 'Mojolicious::Plugin::Qaptcha',
   'VERSION_FROM' => 'lib/Mojolicious/Plugin/Qaptcha.pm',
   'PREREQ_PM' => {
+                   'File::ShareDir' => '1.00',
                    'Mojolicious' => '4',
                    'Test::More' => 0
                  },
